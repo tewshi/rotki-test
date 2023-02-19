@@ -33,7 +33,7 @@ defineProps<{ data: Record<string, Asset> }>();
           {{ formatCurrency(item.usd_value) }}
         </td>
         <td class="text-right">
-          {{ formatCurrency(item.percentage, { fractionDigits: "2" }) }}
+          {{ formatCurrency(Number(item.percentage), { fractionDigits: "2" }) }}
           %
         </td>
       </tr>
