@@ -1,0 +1,13 @@
+@import './base.css';
+
+$font-family: 'Maven Pro';
+$body-font-family: 'Maven Pro';
+$heading-font-family: 'Maven Pro';
+
+.v-application {
+  [class*='text-'] {
+    font-family: $font-family, -apple-system, sans-serif !important;
+  }
+
+  font-family: $font-family, -apple-system, sans-serif !important;
+}
